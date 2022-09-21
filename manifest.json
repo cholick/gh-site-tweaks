@@ -1,0 +1,13 @@
+{
+  "name": "GitHub Style Tweaks",
+  "description": "Random GitHub style tweaks",
+  "version": "0.1",
+  "manifest_version": 3,
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [{
+    "matches": ["https://github.com/*"],
+    "css": ["github.css"]
+  }]
+}
